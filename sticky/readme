@@ -4,13 +4,13 @@ sticky：CSS3中的新属性，表现类似relative和fixed的合体。当目标
           （2）百度首页搜索栏离开视野时会固定到顶部
 
 使用：
-1..sticky {  
-2.    position: -webkit-sticky;  
-3.    position: -moz-sticky;  
-4.    position: -ms-sticky;  
-5.    position: sticky;  
-6.    top: 15px; // 使用和 Fixed 同样的方式设定位置  
-7.}  
+1.sticky {  
+2    position: -webkit-sticky;  
+3    position: -moz-sticky;  
+4    position: -ms-sticky;  
+5    position: sticky;  
+6    top: 15px; // 使用和 Fixed 同样的方式设定位置  
+7}  
 
 
 因为这个样式尚未进入标准，还必须使用私有前缀。demo中介绍了浏览器兼容更好的 JS 实现方式。
