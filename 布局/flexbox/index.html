@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				border: none;
+			}
+			html{
+				font-size: 12px;
+			}
+		
+			.menu a{
+				font-size: 2em;
+				color: #fff;
+				text-decoration: none;
+				font-weight: bold;
+
+			}
+			.menu{
+				display: flex;
+					flex-direction: row;
+			}
+			.menu li{
+				list-style:none;
+				flex: 1 1 100%;
+				text-align: center;
+			
+					height: 60px;
+				line-height: 60px;
+			}
+			.menu li:nth-child(1){
+				background: #FFB6C1;
+			}
+			.menu li:nth-child(2){
+				background:#ADFF2F;
+			}
+			.menu li:nth-child(3){
+				background: #483D8B;
+			}
+			.menu li:nth-child(4){
+				background:#6495ED;
+			}
+			.menu li:nth-child(5){
+				background: #00BFFF;
+			}
+			.menu li:nth-child(6){
+				background: #FFD700;
+			}
+
+			@media (max-width: 768px){
+				.menu{
+					flex-wrap: wrap;
+				}
+				.menu li{
+					flex: 1 1 50%;
+				}
+
+			}
+			@media (max-width: 480px){
+				.menu{
+					flex-wrap: wrap;
+				}
+				.menu li{
+					flex: 1 1 100%;
+				}
+
+			}
+			
+		</style>
+	</head>
+	<body>
+<ul class="menu">
+	<li><a href="#">HTML</a></li>
+	<li><a href="#">CSS</a></li>
+	<li><a href="#">Javascript</a></li>
+	<li><a href="#">Sass</a></li>
+	<li><a href="#">Ruby</a></li>
+	<li><a href="#">Mongo</a></li>
+</ul>
+	</body>
+</html>
